@@ -21,7 +21,7 @@ transactions.get("/:index", (req, res) => {
 // TRANSACTIONS POST TO ADD NEW OBJECT ROUTE
 transactions.post("/", validateURL, (req, res) => {
   transactionsArray.push(req.body);
-  res.json(transactionsArray.at(-1));
+  res.json(transactionsArray[transactionsArray.length - 1]);
 });
 
 // TRANSACTIONS PUT TO EDIT DATA ROUTE
