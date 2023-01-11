@@ -15,14 +15,14 @@ module.exports = [
   },
   {
     item_name: "payroll",
-    amount: 3000,
+    amount: 2000,
     date: "2022-12-31",
     from: "Uber",
     category: "Earnings",
   },
   {
     item_name: "car",
-    amount: 250,
+    amount: 300,
     date: "2023-01-02",
     from: "Car Guru",
     category: "Bills",
